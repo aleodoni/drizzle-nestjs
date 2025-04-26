@@ -2,3 +2,13 @@
 
 ### Get users
 GET http://{{host}}/app/users
+
+
+### Create user
+POST http://{{host}}/app/create-user
+Content-Type: application/json
+
+{
+  "name": "Amora",
+  "email": "amora@gmail.com"
+}
