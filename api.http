@@ -1,0 +1,4 @@
+@host = localhost:3333/api/v1
+
+### Get users
+GET http://{{host}}/app/users
