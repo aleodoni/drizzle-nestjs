@@ -10,7 +10,7 @@
     "db:migrate": "drizzle-kit migrate",
     "db:seed": "tsx --env-file .env src/drizzle/seed.ts",
     "start:dev": "nest start --watch",
-    "start:prod": "node dist/main"
+    "start:prod": "node dist/src/main"
   },
   "keywords": [],
   "author": "",
